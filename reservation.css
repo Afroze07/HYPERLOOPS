@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+body{
+    font-family: 'Heebo',sans-serif;
+    color: whitesmoke;
+    font-weight: 750;
+}
+.field{
+    border: 4px solid rgb(58, 55, 55);
+    border-radius:10px ;
+    
+}
+.field legend{
+    font-family: 'Secular One', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+.field input , select{
+    border: 2px solid  rgba(14, 13, 13, 0.63);
+    border-radius: 7px;
+    background: transparent;
+    height: 23px;
+    margin-left:5px ;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+
+}
+.field select{
+    height: 30px;
+}
+.field label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    
+
+}
+.field form{
+    display: flexbox;
+    height: 145vh;
+
+}
+
+#name{
+    width: 350px;
+}
+#mail{
+    width: 300px;
+}
+#time{
+    width:100px ;
+}
+.field option{
+    color: black;
+}
+.pdetails{
+    border: solid 2px rgba(247, 239, 239, 0.534);
+    border-radius: 10px;
+    background-color: rgba(87, 83, 83, 0.753);
+    padding: 40px;
+    
+}
+.pdetails legend{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+}
+.pdetails input{
+    border: 2px solid rgba(255, 255, 255, 0.267);
+}
+.pdetails select{
+    border: 2px solid rgba(255, 255, 255, 0.267);
+}
+#pname{
+    width: 360px;
+    margin: 10px;
+    margin-right: 50px;
+}
+#age{
+    margin-right: 70px;
+}
+#g{
+    margin-right: 100px;
+    width: 200px;
+}
+#payment{
+    width: 350px;
+}
+#cname{
+    width:300px;
+}
+#payment,#cname,#cvv,#expiry{
+    margin: 10px;
+}
+button{
+    margin-top: 20px;
+    border:2px solid white ;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background: transparent;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+button:hover{
+    background: rgba(255, 255, 255, 0.274);
+}
